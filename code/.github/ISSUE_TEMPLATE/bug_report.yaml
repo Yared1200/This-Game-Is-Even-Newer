@@ -28,4 +28,5 @@ body:
       options:
         - label: This is for the genuine versions and not any parodies
           required: true
-        - label: This is for a bug and not a suggestion.x
+        - label: This is for a bug and not a suggestion.
+          required: true
