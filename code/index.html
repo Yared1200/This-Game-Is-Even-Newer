@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Tide of the Ocean - The Waves Awaken</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>TIDES OF THE OCEAN - The waves awaken</title>
     <head>
-        <h1>Tide of the Ocean - The Waves Awaken</h1>
-        <p>Welcome to the official website of... <i>Tide of the Ocean - The Waves Awaken</i>! I am Yared, it's creator, and I gave it <a href="license.txt">a license</a>. The rules are: &#x1f468;&#x200d;&#x1f3eb;</p>
-        <ol type="I">
-            <li>If you hit an enemy, you lose 1 point.</li>
-            <li>You have to get a golden cupcake to win the final level.</li>
-            <li>The gameplay is that characters jump and run.</li>
-        </ol>
+        <h1>Tides of the Ocean: The Waves Awaken</h1>
+        <p>Welcome to Tides of the Ocean: The Waves Awaken! I am <b>Yared Asaminew Haile</b>, the game's creator. Now, let's go to the game stuff, shall we? &#128512;</p>
+        <div class="game-stuff">
+            <p>The rules are:</p>
+            <ol type="I">
+                <li>A JavaScript file called <a href="game.js">game.js</a></li>
+                <li>The game title: <i>Tides of the Ocean: The Waves Awaken</i></li>
+                <li>The characters</li>
+            </ol>
+        </div>
     </head>
     <body>
-        <div class="game-container">
-            <div class="game-content">
-                <p>If you want to play, click this button:</p>
-                <button id="playButton" onclick="fetch('game.js')>Start Game!</button>
-            </div>
+        <div class="copyright">
+            <h1>Copyright Notice</h1>
+            <p>Tides of the Ocean&trade; & &copy; 2026 by Brave Bear Studios&reg;. All rights reserved.</p>
+            <p>Tides of the Ocean&trade; and the Tides of the Ocean&trade; logo are trademarks of Brave Bear Studios&reg;.</p>
+        </div>
+        <p>If you want to play, press this button:</p>
+        <button id="playButton" onclick="fetch('game.js')">Play game!</button>
+        <!--Volume slider-->
+        <div class="volume-container">
+            <label for="volume">Volume:</label>
+            <input type="range" id="volumeSlider" name="volume" min="0" max="100" value="50">
+            <span id="volume-display">50</span>
         </div>
     </body>
-    <section>
-                            <!-- Buttons for controlling playback -->
-        <button id="soundPlay">Play</button>
-        <button id="soundPause">Pause</button>
-        
-        <!-- Slider for volume (values from 0.0 to 1.0) -->
-        <label for="volumeSlider">Volume:</label>
-        <input type="range" id="volumeControl" min="0" max="10" step="0.1" value="0.10">
-    </section>
 </html>
