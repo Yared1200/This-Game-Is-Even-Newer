@@ -1,0 +1,31 @@
+name: Tides of the Ocean 1 - Bug Report
+description: What's happening in here? SOMETHING IS... ...WRO-O-O-O-O-O-NG!!! AAAAH!!
+title: "*Your bug report title here*"
+labels: BugReport
+body:
+  - type: input
+    attributes:
+      label: What went wrong?
+      description: Tell me what happened in game that was not excpected.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Which edition did it happen in?
+      description: Which edition? The 1st Edition, or one of the other editions?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How can I reproduce this bug again?
+      description: Tell me how the bug can be triggered again.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: I agree to the following -
+      description: (if the options aren't met, the issue may be deleted)
+      options:
+        - label: This is for the genuine versions and not any parodies
+          required: true
+        - label: This is for a bug and not a suggestion.x
