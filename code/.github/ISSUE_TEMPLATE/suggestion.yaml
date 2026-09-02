@@ -1,0 +1,27 @@
+name: Tides of the Ocean 1 - Suggestions
+description: I... need to make a suggestion.
+title: "*Your suggestion title here*"
+labels: Suggestion
+body:
+  - type: input
+    attributes:
+      label: What suggestion do you need to make?
+      description: Tell me the suggestion that you need to make.
+      placeholder: Suggestion here
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Which edition?
+      description: Which edition? The 1st Edition, or one of the other editions?
+      placeholder: Edition here
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: I agree to the following -
+      description: (if the options aren't met, the issue may be deleted)
+      options:
+        - label: This is for the genuine versions and not any parodies
+          required: true
+        - label: This is for a suggestion and not a bug.
