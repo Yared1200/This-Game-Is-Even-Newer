@@ -1,0 +1,11 @@
+html {
+    background-color: red
+}
+
+.copyright h1 {
+    text-align: center;
+}
+
+playButton {
+    background-color: #1e90ff;
+}
